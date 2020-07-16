@@ -27,3 +27,5 @@ ttf-font-awesome
 
 
 and maybe other packages required
+
+![Screenshot](/screenshot.png?raw=true "Screenshot")
