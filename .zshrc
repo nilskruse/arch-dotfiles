@@ -110,6 +110,14 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
+#start ssh agent
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    ssh-agent -t 1h > "$XDG_RUNTIME_DIR/ssh-agent.env"
+fi
+if [[ ! "$SSH_AUTH_SOCK" ]]; then
+    source "$XDG_RUNTIME_DIR/ssh-agent.env" >/dev/null
+fi
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/nils/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
