@@ -60,8 +60,8 @@ font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=14;3"
 font-3 = "Font Awesome 5 Brands:pixelsize=14;3"
 
 modules-left = bspwm
-modules-center = spotify spotify-prev spotify-play-pause spotify-next
-modules-right = network-ethernet network-wlan xkeyboard battery-internal battery-external pulseaudio backlight date separator bluetooth power-menu
+modules-center = 
+modules-right = battery-internal battery-external pulseaudio backlight date separator bluetooth power-menu separator
 
 tray-position = right
 tray-padding = 2
