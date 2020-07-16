@@ -4,7 +4,7 @@ My arch config
 Polybar based on https://github.com/Kurolox/dotfiles
 Background: https://dribbble.com/shots/1323389-Meteor
 
-Easiest way to install required packages would be with a AUR wrapper of your choice ( I recommend yay)
+Easiest way to install required packages would be with a pacman wrapper/AUR helper of your choice ( I recommend yay)
 
 
 yay -S
